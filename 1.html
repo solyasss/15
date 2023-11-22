@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <header>
+        <nav class="blue darken-2">
+            <div class="nav-wrapper">
+                <a href="#!" style="margin-left: 20px;" class="logo">
+                    <div class="show-on-small hide-on-med-and-up">header</div>
+                </a>
+                <a href="#" data-target="mobile-left" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav blue darken-1" id="mobile-left">
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="left_sidebar blue darken-1"></div>
+        <div class="main blue lighten-5">
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card-content">
+                        <p style="color: black;">1</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-content">
+                        <p style="color: black;">2</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small"> 
+                    <div class="card-content">
+                        <p style="color: black;">3</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-content">
+                        <p style="color: black;">4</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-content">
+                        <p style="color: black;">5</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card small">
+                    <div class="card-content">
+                        <p style="color: black;">6</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#" class="pink-text">open</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="right_sidebar blue">:)</div>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+
+</html>
